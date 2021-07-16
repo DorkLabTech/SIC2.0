@@ -51,13 +51,13 @@
               <form action="https://getform.io/f/944c3b8b-32a8-4dbe-ba11-fbb03ffc00ed" method="POST" enctype="multipart/form-data" id="stripe-login">
                 <div class="field padding-bottom--24">
                   <label for="name">Name</label>
-                  <input type="name" name="name">
+                  <input type="name" name="name" required>
                 </div>
                 <div class="field padding-bottom--24">
                   <div class="grid--50-50">
                     <label for="phone">Mobile Number</label>
                   </div>
-                  <input type="number" name="mobile">
+                  <input type="number" name="mobile" required>
                 </div>
                 <div class="field padding-bottom--24">
                   <label for="email">Email</label>
@@ -67,7 +67,7 @@
                   <div class="grid--50-50">
                     <label for="school">School/University</label>
                   </div>
-                  <input type="text" name="School">
+                  <input type="text" name="School" required>
                 </div>
                 <div class="field padding-bottom--24">
                   <div class="grid--50-50">
@@ -84,7 +84,7 @@
                   <div class="grid--50-50">
                     <label for="Ps">Upload Payment Screenshot:</label>
                   </div>
-                  <input type="file" name="file">
+                  <input type="file" name="file" required>
                 </div>
                 <div class="field padding-bottom--24">
                   <input type="submit" name="submit" value="Continue">
