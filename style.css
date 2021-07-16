@@ -195,7 +195,11 @@
       font-weight: 600;
       margin: 0 10px;
   }
-  
+  .required-field::before {
+  content: "*";
+  color: red;
+  float: right;
+  }
   .animationRightLeft {
     animation: animationRightLeft 2s ease-in-out infinite;
   }
